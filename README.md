@@ -1,4 +1,6 @@
 # SetupEnv
-A script for me to setup the development enviroment
+Some scripts for me to setup the development enviroment
 
-Execute the script to install C++, Python3, Java, JavaScript, C#, Dart, Golang.
+# Notice
+- Excute all the script in `SetupEnv` folder, or just copy the command to the terminal.
+- always use `bash`.
