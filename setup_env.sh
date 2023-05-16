@@ -1,6 +1,6 @@
 # install needed tools
 apt update
-apt install wget curl
+apt install -y wget curl
 
 # install C++, Python3, Java, Golang from default apt source
 apt install -y g++ gdb cmake git python3 python3-pip default-jdk golang
