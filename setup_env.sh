@@ -8,15 +8,6 @@ apt install -y g++ gdb cmake python3 python3-pip default-jdk golang
 # install conan
 pip install conan
 
-# install emsdk
-cd
-git clone https://github.com/emscripten-core/emsdk.git
-cd emsdk
-./emsdk install latest
-./emsdk activate latest
-source ./emsdk_env.sh
-cd ..
-
 # install nodejs
 curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && apt-get install -y nodejs
 
