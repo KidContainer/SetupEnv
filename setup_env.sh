@@ -9,6 +9,7 @@ apt install -y g++ gdb cmake git python3 python3-pip default-jdk golang
 pip install conan
 
 # install emsdk
+cd
 git clone https://github.com/emscripten-core/emsdk.git
 cd emsdk
 ./emsdk install latest
