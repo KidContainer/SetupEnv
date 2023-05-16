@@ -1,9 +1,9 @@
 # install needed tools
 apt update
-apt install -y wget curl
+apt install -y wget curl git
 
 # install C++, Python3, Java, Golang from default apt source
-apt install -y g++ gdb cmake git python3 python3-pip default-jdk golang
+apt install -y g++ gdb cmake python3 python3-pip default-jdk golang
 
 # install conan
 pip install conan
