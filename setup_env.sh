@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # install needed tools
 apt update
 apt install -y wget curl git
